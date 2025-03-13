@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+
+}
+
+header {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.headerlink {
+    color: black;
+    text-shadow: 1px solid black;
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#headerlogo {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+#footerlogo {
+    width: 150px;
+    height: 150px;
+}
