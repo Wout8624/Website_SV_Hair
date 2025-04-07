@@ -7,22 +7,26 @@
 body {
     max-width: 960px;
     margin: auto;
-
 }
 
 header {
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
+    border: blanchedalmond;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .headerlink {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     text-shadow: 1px solid black;
     text-decoration: none;
     width: 33%;
     text-align: center;
-    border: 1px solid lightsalmon;
-    background-color: lightsalmon;
+    border: 1px solid gray;
+    background-color: ivory;
     border-radius: 15px;
     padding: 5px;
 }
@@ -30,12 +34,41 @@ header {
 #headerlogo {
     width: 150px;
     height: 150px;
-    border: 1px solid black;
+    border: 1px solid rgb(212, 209, 209);
     border-radius: 30px;
     margin: 5px;
 }
 
 #footerlogo {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
+    border: white;
+    border-radius: 25px;
+}
+
+
+#headercontent {
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 20px;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: ivory;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+nav {
+    margin-top: 10px;
 }
