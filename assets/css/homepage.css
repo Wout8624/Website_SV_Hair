@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+#content {
     max-width: 960px;
     margin: auto;
 }
 
 header {
     width: 100%;
+    margin-top: 30px;
     background-color: whitesmoke;
     border: blanchedalmond;
     border-radius: 50px;
@@ -40,6 +41,9 @@ header {
 }
 
 #footerlogo {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 50px;
     height: 50px;
     border: white;
@@ -63,6 +67,8 @@ footer {
     width: 100%;
     background-color: ivory;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #0a090a;
 }
 
 #content {
@@ -71,4 +77,40 @@ footer {
 
 nav {
     margin-top: 10px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #302f2f;
+}
+
+#square1 {
+    position: relative;
+    float: right;
+    top: 80px;
+    right: -40px;
+    rotate: -20deg;
+}
+
+#square2 {
+    position: relative;
+    float: left;
+    /* top: 80px; */
+    right: 80px;
+    rotate: 50deg;
+    background-color: #201e1e;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #000000;
+    rotate: 35deg;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    right: 25px;
 }
